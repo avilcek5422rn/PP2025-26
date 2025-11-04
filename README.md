@@ -1,6 +1,6 @@
 # BegEnd — Lexer 
 
-Ovo je **leksički analizator** za jezik BegEnd (tvoj deo projekta). Sadrži:
+Ovo je **leksički analizator** za jezik BegEnd . Sadrži:
 - opis tokena i pravila,
 - primere koda u BegEnd jeziku (`examples/*.bg`),
 - CLI za pokretanje lexer-a nad fajlovima.
