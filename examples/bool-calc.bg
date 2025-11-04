@@ -1,0 +1,8 @@
+bool a; bool b; bool c;
+true -> a; false -> b;
+
+(a and not b) -> c;
+print(c);
+
+(a or b) -> c;
+print(c);

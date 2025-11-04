@@ -1,0 +1,13 @@
+begin function inc(x:int):int
+  return x + 1
+end function
+
+int y
+inc(5) -> y
+
+begin
+  if (y % 2 = 0)
+    print(y)
+  else
+    print(y + 1)
+end

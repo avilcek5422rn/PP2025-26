@@ -1,0 +1,14 @@
+int i; int j; int sum;
+0 -> sum;
+
+begin for (i goes from 1 to 3)
+  begin if (i < 3)
+    begin for (j goes from 1 to 2)
+      sum + j -> sum;
+    end for
+  else
+    sum + i -> sum;
+  end
+end for
+
+print(sum);
