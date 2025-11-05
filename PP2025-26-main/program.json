@@ -1,0 +1,458 @@
+{
+  "id": 33,
+  "name": "Program",
+  "children": [
+    {
+      "id": 2,
+      "name": "VarDecl",
+      "children": [
+        {
+          "id": 63,
+          "name": "Type",
+          "token": {
+            "type": "INT",
+            "lexeme": "int",
+            "line": 1,
+            "col": 1
+          }
+        },
+        {
+          "id": 64,
+          "name": "Dimensions"
+        },
+        {
+          "id": 65,
+          "name": "Variables",
+          "children": [
+            {
+              "id": 1,
+              "name": "VarDeclItem",
+              "children": [
+                {
+                  "id": 66,
+                  "name": "VarName",
+                  "token": {
+                    "type": "IDENT",
+                    "lexeme": "a",
+                    "line": 1,
+                    "col": 5
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "VarDecl",
+      "children": [
+        {
+          "id": 67,
+          "name": "Type",
+          "token": {
+            "type": "REAL",
+            "lexeme": "real",
+            "line": 1,
+            "col": 8
+          }
+        },
+        {
+          "id": 68,
+          "name": "Dimensions"
+        },
+        {
+          "id": 69,
+          "name": "Variables",
+          "children": [
+            {
+              "id": 3,
+              "name": "VarDeclItem",
+              "children": [
+                {
+                  "id": 70,
+                  "name": "VarName",
+                  "token": {
+                    "type": "IDENT",
+                    "lexeme": "r",
+                    "line": 1,
+                    "col": 13
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "VarDecl",
+      "children": [
+        {
+          "id": 71,
+          "name": "Type",
+          "token": {
+            "type": "BOOL",
+            "lexeme": "bool",
+            "line": 1,
+            "col": 16
+          }
+        },
+        {
+          "id": 72,
+          "name": "Dimensions"
+        },
+        {
+          "id": 73,
+          "name": "Variables",
+          "children": [
+            {
+              "id": 5,
+              "name": "VarDeclItem",
+              "children": [
+                {
+                  "id": 74,
+                  "name": "VarName",
+                  "token": {
+                    "type": "IDENT",
+                    "lexeme": "ok",
+                    "line": 1,
+                    "col": 21
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Read",
+      "children": [
+        {
+          "id": 7,
+          "name": "Variable",
+          "children": [
+            {
+              "id": 75,
+              "name": "VarName",
+              "token": {
+                "type": "IDENT",
+                "lexeme": "a",
+                "line": 2,
+                "col": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Read",
+      "children": [
+        {
+          "id": 9,
+          "name": "Variable",
+          "children": [
+            {
+              "id": 76,
+              "name": "VarName",
+              "token": {
+                "type": "IDENT",
+                "lexeme": "r",
+                "line": 2,
+                "col": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Assignment",
+      "children": [
+        {
+          "id": 11,
+          "name": "Literal",
+          "children": [
+            {
+              "id": 77,
+              "name": "Value",
+              "token": {
+                "type": "BOOL_LITERAL",
+                "lexeme": "true",
+                "line": 3,
+                "col": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Variable",
+          "children": [
+            {
+              "id": 78,
+              "name": "VarName",
+              "token": {
+                "type": "IDENT",
+                "lexeme": "ok",
+                "line": 3,
+                "col": 9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "If",
+      "children": [
+        {
+          "id": 21,
+          "name": "BinaryExpr",
+          "children": [
+            {
+              "id": 16,
+              "name": "BinaryExpr",
+              "children": [
+                {
+                  "id": 14,
+                  "name": "Variable",
+                  "children": [
+                    {
+                      "id": 81,
+                      "name": "VarName",
+                      "token": {
+                        "type": "IDENT",
+                        "lexeme": "a",
+                        "line": 4,
+                        "col": 5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 80,
+                  "name": "Operator",
+                  "token": {
+                    "type": "LT",
+                    "lexeme": "<",
+                    "line": 4,
+                    "col": 7
+                  }
+                },
+                {
+                  "id": 15,
+                  "name": "Literal",
+                  "children": [
+                    {
+                      "id": 82,
+                      "name": "Value",
+                      "token": {
+                        "type": "INT_LITERAL",
+                        "lexeme": "10",
+                        "line": 4,
+                        "col": 9
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 79,
+              "name": "Operator",
+              "token": {
+                "type": "AND",
+                "lexeme": "and",
+                "line": 4,
+                "col": 12
+              }
+            },
+            {
+              "id": 20,
+              "name": "UnaryExpr",
+              "children": [
+                {
+                  "id": 83,
+                  "name": "Operator",
+                  "token": {
+                    "type": "NOT",
+                    "lexeme": "not",
+                    "line": 4,
+                    "col": 16
+                  }
+                },
+                {
+                  "id": 19,
+                  "name": "BinaryExpr",
+                  "children": [
+                    {
+                      "id": 17,
+                      "name": "Variable",
+                      "children": [
+                        {
+                          "id": 85,
+                          "name": "VarName",
+                          "token": {
+                            "type": "IDENT",
+                            "lexeme": "r",
+                            "line": 4,
+                            "col": 21
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": 84,
+                      "name": "Operator",
+                      "token": {
+                        "type": "GE",
+                        "lexeme": ">=",
+                        "line": 4,
+                        "col": 23
+                      }
+                    },
+                    {
+                      "id": 18,
+                      "name": "Literal",
+                      "children": [
+                        {
+                          "id": 86,
+                          "name": "Value",
+                          "token": {
+                            "type": "REAL_LITERAL",
+                            "lexeme": "2.0",
+                            "line": 4,
+                            "col": 26
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Print",
+          "children": [
+            {
+              "id": 22,
+              "name": "Literal",
+              "children": [
+                {
+                  "id": 87,
+                  "name": "Value",
+                  "token": {
+                    "type": "INT_LITERAL",
+                    "lexeme": "1",
+                    "line": 4,
+                    "col": 38
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Print",
+          "children": [
+            {
+              "id": 24,
+              "name": "Literal",
+              "children": [
+                {
+                  "id": 88,
+                  "name": "Value",
+                  "token": {
+                    "type": "INT_LITERAL",
+                    "lexeme": "0",
+                    "line": 4,
+                    "col": 53
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Print",
+      "children": [
+        {
+          "id": 27,
+          "name": "Variable",
+          "children": [
+            {
+              "id": 89,
+              "name": "VarName",
+              "token": {
+                "type": "IDENT",
+                "lexeme": "a",
+                "line": 5,
+                "col": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Print",
+      "children": [
+        {
+          "id": 29,
+          "name": "Variable",
+          "children": [
+            {
+              "id": 90,
+              "name": "VarName",
+              "token": {
+                "type": "IDENT",
+                "lexeme": "r",
+                "line": 5,
+                "col": 17
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Print",
+      "children": [
+        {
+          "id": 31,
+          "name": "Variable",
+          "children": [
+            {
+              "id": 91,
+              "name": "VarName",
+              "token": {
+                "type": "IDENT",
+                "lexeme": "ok",
+                "line": 5,
+                "col": 27
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

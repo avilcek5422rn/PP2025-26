@@ -1,0 +1,8 @@
+real z; int n;
+2.5 -> z; 3 -> n;
+
+begin if (z > 1.0 and n <= 3)
+  print(1);
+else
+  print(0);
+end

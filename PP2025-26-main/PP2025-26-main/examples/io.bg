@@ -1,0 +1,5 @@
+int a; real r; bool ok;
+read(a); read(r);
+true -> ok;
+if (a < 10 and not (r >= 2.0)) print(1); else print(0);
+print(a); print(r); print(ok);

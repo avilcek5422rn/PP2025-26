@@ -1,0 +1,11 @@
+enum Color {
+  red, green, blue
+};
+
+enum Status {
+  pending, active, completed
+};
+
+int x;
+5 -> x;
+

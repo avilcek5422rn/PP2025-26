@@ -1,0 +1,10 @@
+begin for (i goes from 1 to 5)
+  if (i % 15 = 0)
+    print(100);
+  or if (i % 3 = 0)
+    print(200);
+  or if (i % 5 = 0)
+    print(300);
+  else
+    print(i);
+end for
